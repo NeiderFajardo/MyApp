@@ -1,14 +1,23 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <ion-title>
       Ionic Blank
     </ion-title>
   </ion-navbar>
-</ion-header>
-
+</ion-header> -->
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="../../assets/img/LogoSample_ByTailorBrands.jpg">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <contenido class="contenido" id="contenido1"></contenido>
+  <contenido class="contenido" id="contenido2"></contenido>
+  <contenido class="contenido" id="contenido3"></contenido>
+  <contenido class="contenido" id="contenido4"></contenido>
+  <div class="abajo">
+    <button type="button" class="miBoton">Agregar tarea</button>
+  </div>
 </ion-content>
